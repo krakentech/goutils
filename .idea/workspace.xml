@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f75effe-7d81-4c1c-b2d3-7f43a976605e" name="Changes" comment="" />
+    <list default="true" id="3f75effe-7d81-4c1c-b2d3-7f43a976605e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
@@ -17,25 +30,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2g0OvEH7ScsStHZjQzfeEP5ieso" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Test.TestFileExistStrict in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestFileExists in github.com/krakentech/goutils.executor": "Coverage",
+    "Go Test.TestFileExists/Check_For_Existing_File_(no_errors) in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestFileExists/Check_For_File_Get_Error in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceIndexO in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceIndexOf in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceRemoveIdx in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceRemoveIdx/remove_item in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceRemoveItem in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceRemoveItem/case_is_important in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestSliceRemoveItem/not_found in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestStringToInt in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestStringToInt/max_int in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestStringToInt/string_1 in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.TestStringToInt64 in github.com/krakentech/goutils.executor": "Run",
+    "Go Test.go test github.com/krakentech/goutils.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "golang-module",
+    "git-widget-placeholder": "release/v1.0",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Volumes/Code/krakentech/_kt_template",
+    "last_opened_file_path": "/Volumes/Code/krakentech/go_modules/goutils",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,11 +77,76 @@
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
+  <component name="RunManager" selected="Go Test.go test goutils">
+    <configuration name="go build github.com/krakentech/goutils" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="_kt_template" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/krakentech/goutils" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStringToInt in github.com/krakentech/goutils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="_kt_template" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/krakentech/goutils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestStringToInt\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStringToInt64 in github.com/krakentech/goutils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="_kt_template" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/krakentech/goutils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestStringToInt64\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStringToInt/max_int in github.com/krakentech/goutils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="_kt_template" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/krakentech/goutils" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestStringToInt\E$/^\Qmax_int\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test goutils" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="_kt_template" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.go test goutils" />
+        <item itemvalue="Go Build.go build github.com/krakentech/goutils" />
+        <item itemvalue="Go Test.TestStringToInt64 in github.com/krakentech/goutils" />
+        <item itemvalue="Go Test.TestStringToInt in github.com/krakentech/goutils" />
+        <item itemvalue="Go Test.TestStringToInt/max_int in github.com/krakentech/goutils" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/goutils$TestFileExists_in_github_com_krakentech_goutils.out" NAME="TestFileExists in github.com/krakentech/goutils Coverage Results" MODIFIED="1715197391408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/goutils$go_test_github_com_krakentech_goutils.out" NAME="go test github.com/krakentech/goutils Coverage Results" MODIFIED="1715259609225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
