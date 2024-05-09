@@ -5,7 +5,7 @@
 </picture>
 
 ![GitHub Release](https://img.shields.io/github/v/release/krakentech/goutils)
-![Coverage](https://img.shields.io/badge/Coverage-0%25-red)
+![Coverage](https://img.shields.io/badge/Coverage-100.0%25-brightgreen)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/krakentech/goutils)
 ![GitHub License](https://img.shields.io/github/license/krakentech/goutils)
 
