@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f75effe-7d81-4c1c-b2d3-7f43a976605e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build github.com/krakentech/goutils.executor": "Coverage",
     "Go Test.TestFileExistStrict in github.com/krakentech/goutils.executor": "Run",
     "Go Test.TestFileExists in github.com/krakentech/goutils.executor": "Coverage",
     "Go Test.TestFileExists/Check_For_Existing_File_(no_errors) in github.com/krakentech/goutils.executor": "Run",
@@ -60,6 +61,7 @@
     "Go Test.TestStringToInt/string_1 in github.com/krakentech/goutils.executor": "Run",
     "Go Test.TestStringToInt64 in github.com/krakentech/goutils.executor": "Run",
     "Go Test.go test github.com/krakentech/goutils.executor": "Coverage",
+    "Go Test.go test goutils.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -146,7 +148,9 @@
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/goutils$go_build_github_com_krakentech_goutils.out" NAME="go build github.com/krakentech/goutils Coverage Results" MODIFIED="1715263528058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/goutils$TestFileExists_in_github_com_krakentech_goutils.out" NAME="TestFileExists in github.com/krakentech/goutils Coverage Results" MODIFIED="1715197391408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/goutils$go_test_goutils.out" NAME="go test goutils Coverage Results" MODIFIED="1715263539466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/goutils$go_test_github_com_krakentech_goutils.out" NAME="go test github.com/krakentech/goutils Coverage Results" MODIFIED="1715259609225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
